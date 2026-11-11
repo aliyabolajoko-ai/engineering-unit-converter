@@ -1,10 +1,10 @@
-# Engineering Unit Converter
+Engineering Unit Converter
 
-## Project Description
+Project Description
 
 A beginner-friendly Python program that converts values between common engineering units.
 
-## Features
+Features
 
 - Length: millimetres and inches
 - Temperature: Celsius and Fahrenheit
@@ -14,42 +14,47 @@ A beginner-friendly Python program that converts values between common engineeri
 - Bonus: pressure conversion between kilopascals and bar
 - Basic input validation, including negative temperatures
 
-## How to Run
+Requirements
 
-1. Install Python 3.
-2. Download or clone this repository.
-3. Open a terminal in the project folder.
-4. Run:
+- Python 3
+- Any IDE, code editor, or terminal environment that supports Python 3
 
-   `python engineering_unit_converter.py`
+How to Run
 
-You can also open the file in a Python IDE or mobile Python app.
+1. Download or clone this repository.
+2. Open the "engineering_unit_converter.py" file in an environment that supports Python 3.
+3. Run the program.
 
-## Conversion Formulas
+If you are using a terminal, you can run it with:
 
-| Conversion | Formula |
-|---|---|
-| Millimetres to inches | mm / 25.4 |
-| Inches to millimetres | inches * 25.4 |
-| Celsius to Fahrenheit | (C * 9/5) + 32 |
-| Fahrenheit to Celsius | (F - 32) * 5/9 |
-| Kilograms to pounds | kg * 2.20462 |
-| Pounds to kilograms | lb / 2.20462 |
-| km/h to m/s | km/h / 3.6 |
-| m/s to km/h | m/s * 3.6 |
-| kPa to bar | kPa / 100 |
-| bar to kPa | bar * 100 |
+python engineering_unit_converter.py
 
-## Python Concepts Used
+Note: No specific application is required. You can use any environment that supports Python 3.
+
+Conversion Formulas
+
+Conversion| Formula
+Millimetres to inches| mm / 25.4
+Inches to millimetres| inches * 25.4
+Celsius to Fahrenheit| (C * 9/5) + 32
+Fahrenheit to Celsius| (F - 32) * 5/9
+Kilograms to pounds| kg * 2.20462
+Pounds to kilograms| lb / 2.20462
+km/h to m/s| km/h / 3.6
+m/s to km/h| m/s * 3.6
+kPa to bar| kPa / 100
+bar to kPa| bar * 100
+
+Python Concepts Used
 
 - Functions
 - Dictionaries
 - Lists and tuples
-- `while` and `for` loops
-- Conditional statements (`if`, `elif`, `else`)
-- User input and conversion with `float()`
+- "while" and "for" loops
+- Conditional statements ("if", "elif", "else")
+- User input and conversion with "float()"
 - Basic input validation
 
-## Conversion History
+Conversion History
 
 The program stores conversions in a list while it is running. The history is cleared when the program is closed.
